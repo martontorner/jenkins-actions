@@ -1,0 +1,16 @@
+[commit]
+  gpgsign = true
+  template = .gitmessage
+
+[tag]
+  gpgsign = true
+
+[core]
+  eol = lf
+  autocrlf = input
+  safecrlf = true
+  hooksPath = .githooks
+  attributesfile = .gitattributes
+
+[color]
+  ui = auto
